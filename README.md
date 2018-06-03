@@ -17,8 +17,9 @@ data-distributed architecture on it's backend in order to enhace responsiveness
 since it was intended to run on a raspberry-pi for monthly electrical cost
 reduction. As a consequence, all the data handling is done using the standard 
 C++ library instead of a database, therefore enhancing responsiveness and 
-latency at the cost of reducing development scalability, which turns out not 
-to be a big deal since all the core functionalities are already implemented.
+latency at the cost of reducing development scalability, which is not a
+big deal since all the desired core functionalities have already been implemented
+on it's first version on December 17.
 
 This server has been iteratively tested on all of its functionalities and no
 single point of failure has been experienced since its deployment on
@@ -30,4 +31,3 @@ commited to github since its original Version Control System was SubVersion.
 Due to the deprecation of this VCS, from now and on the server project will be
 fully maintained and updated with git so I took the decision of deleting the
 uploaded version and reuploading the whole new version to github.
-
